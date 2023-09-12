@@ -19,7 +19,7 @@ images:
 
 <Sep size={12} />
 
-Co-founder of Dthree Digital and a full-stack web developer, I'm adept at crafting dynamic, scalable web apps and websites using Node.js, React, WordPress, and Drupal; committed to code quality, innovation, and passionate collaboration for impactful projects.
+Co-founder of <a href="https://dthree.com.ph/" target="_blank"><span><em>Dthree Digital</em></span></a> and a full-stack web developer, I'm adept at crafting dynamic, scalable web apps and websites using Node.js, React, WordPress, and Drupal; committed to code quality, innovation, and passionate collaboration for impactful projects.
 
 
 

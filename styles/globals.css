@@ -33,7 +33,7 @@
   small * {
     @apply text-sm font-medium md:text-base;
   }
-  :is(h1, h2, h3, h4, h5, h6) {
+  :is(h1, h2, h3, h4, h5, h6, span) {
     & > em {
       @apply text-gradient-500 not-italic;
     }
