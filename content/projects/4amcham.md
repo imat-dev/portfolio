@@ -1,28 +1,33 @@
 ---
 layout: Post
-title: Application design for finance startup
-description: The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.
-date: '2022-11-21'
+title: American Chamber of Commerce of the Philippines
+description: Building a website for a prestigious 120 year-old business organization
+date: '2022-11-22'
+url: https://amchamphilippines.com/
 tags:
-  - svelte
-  - tailwindcss
-  - prisma
+  - Drupal
 logo:
-  src: /icons/logo-4.svg
-  alt: Company X
+  src: 
+  alt: 
 images:
-  - src: /projects/project-4.png
-    alt: image alt text
+  - src: /projects/amcham.png
+    alt: American Chamber of Commerce of the Philippines
     overlay:
-      src: /projects/project-4-mobile.png
-      alt: overlay image
+      src: /projects/amcham-mobile.png
+      alt: Control Panel Mobile
+  - src: /projects/project-1.png
+    alt: Customers Dashboard
+  - src: /projects/project-2.png
+    alt: Inovice & Payments
+  - src: /projects/project-3.png
+    alt: Inovice & Payments
   - src: /projects/project-4.png
-    alt: image alt text
+    alt: Inovice & Payments
 attributes:
   - label: Duration
-    value: 6 months
+    value: 1 Months
   - label: Role
-    value: Accessibility
+    value: Lead Full Stack Developer
 ---
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.

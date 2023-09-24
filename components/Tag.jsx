@@ -17,7 +17,7 @@ const Tag = (props) => {
         isLinked && 'hover:bg-beta/20',
         className
       )}
-      href={href}
+     
       {...rest}
     >
       {children}

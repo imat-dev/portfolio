@@ -1,28 +1,34 @@
 ---
 layout: Post
-title: Agency website design for devops company
-description: Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arcu scelerisque drogon sit amenot.
-date: '2022-11-21'
+title: InsBoss Website
+description: E-commerce platform for the recurring hiring of virtual assistants through a subscription model.
+date: '2022-11-22'
+url: https://insboss.net/
 tags:
-  - next-js
-  - mdx
-  - react
+  - WordPress
+  - WooCommerce
 logo:
-  src: /icons/logo-1.svg
-  alt: Company X
+  src: 
+  alt: 
 images:
-  - src: /projects/project-1.png
-    alt: image alt text
+  - src: /projects/insboss.png
+    alt: Insboss Homepage
     overlay:
-      src: /projects/project-1-mobile.png
-      alt: overlay image
+      src: /projects/insboss-mobile.png
+      alt: Control Panel Mobile
+  - src: /projects/project-1.png
+    alt: Customers Dashboard
   - src: /projects/project-2.png
-    alt: image alt text
+    alt: Inovice & Payments
+  - src: /projects/project-3.png
+    alt: Inovice & Payments
+  - src: /projects/project-4.png
+    alt: Inovice & Payments
 attributes:
   - label: Duration
     value: 3 Months
   - label: Role
-    value: GraphQL Database
+    value: Lead Full Stack Developer
 ---
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.

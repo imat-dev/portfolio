@@ -44,6 +44,7 @@ list:
 
 
 
+
 ---skills[0]
 title: Back-End Development
 list:
@@ -59,10 +60,6 @@ list:
     level: 4
     icon:
       src: /icons/nestjs.svg
-  - title: NextJS
-    level: 4
-    icon:
-      src: /icons/nextjs.svg
   - title: MySQL
     level: 4
     icon:
@@ -71,12 +68,12 @@ list:
     level: 4
     icon:
       src: /icons/mongo.svg
-  - title: Firebase
-    level: 2
+  - title: Redis
+    level: 3
     icon:
       src: /icons/firebase.svg
   - title: TypeScript
-    level: 3
+    level: 4
     icon:
       src: /icons/ts.svg
 ---
@@ -89,12 +86,16 @@ list:
 ########################################
 title: Front-End Development
 list:
+  - title: NextJS
+    level: 4
+    icon:
+      src: /icons/nextjs.svg
   - title: JavaScript
     level: 4
     icon:
       src: /icons/javascript.svg
   - title: React
-    level: 3
+    level: 4
     icon:
       src: /icons/react.svg
   - title: Redux
@@ -110,11 +111,11 @@ list:
     icon:
       src: /icons/bootstrap.svg
   - title: HTML
-    level: 2
+    level: 5
     icon:
       src: /icons/html.svg
   - title: CSS
-    level: 2
+    level: 5
     icon:
       src: /icons/css.svg
 ---
@@ -161,8 +162,8 @@ list:
     level: 2
     icon:
       src: /icons/aws.svg
-  - title: Domain Mgmt
-    level: 5
+  - title: Heroku
+    level: 3
     icon:
       src: /icons/domain.svg
   - title: Tech. SEO
@@ -173,7 +174,7 @@ list:
     level: 2
     icon:
       src: /icons/vercel.svg
-  - title: Web Hostings
+  - title: Hostings
     level: 5
     icon:
       src: /icons/hosting.svg

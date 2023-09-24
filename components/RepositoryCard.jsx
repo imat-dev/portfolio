@@ -20,7 +20,7 @@ const DateComponent = (props) => {
       )}
     >
       <div className="p-4 md:p-6">
-        <h6 className="text-accent">
+        <h6 className="text-white">
           <span className="text-omega-900">{owner}/</span>
           {name}
         </h6>

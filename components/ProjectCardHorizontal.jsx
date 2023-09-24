@@ -10,13 +10,15 @@ const ProjectCardHorizontal = ({
   logo,
   images,
   slug,
+  url,
   tags,
   description,
   attributes,
   index,
 }) => (
+ 
   <div
-    href={slug.join('/')}
+    href={url}
     aria-label={title}
     className={classNames(
       'group grid items-center transition-all duration-200 md:grid-cols-2 md:gap-10',
@@ -25,7 +27,8 @@ const ProjectCardHorizontal = ({
   >
     {images && (
       <Link
-        href={slug.join('/')}
+        href={url}
+        target='_blank'
         aria-label={title}
         className="not-prose relative block h-80 w-full p-4"
       >
@@ -67,7 +70,8 @@ const ProjectCardHorizontal = ({
       ) : (
         <h6 className="text-omega-400">{logo.alt}</h6>
       )}
-      <Link href={slug.join('/')} aria-label={title}>
+      <Link href={url}
+        target='_blank' aria-label={title}>
         <h4 className="mt-6 transition-colors group-hover:text-accent dark:group-hover:text-alpha">
           {title}
         </h4>

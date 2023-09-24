@@ -2,21 +2,25 @@
 layout: Projects
 seo:
   title: Web Development Projects
-  description: Custom description for this page goes here
+  description: Browse through my portfolio to see a blend of frontend flair and backend brawn, showcasing my holistic approach to full-stack development.
+
 ---
 
 ---github
 repositories:
-  - leerob/leerob.io
-  - jxnblk/mdx-deck
-  - vercel/og-image
+  - imat-dev/auction-system
+  - imat-dev/auction-site
+  - imat-dev/nestjs-boilerplate
+  - imat-dev/nextjs-app-router-commerce
+  - imat-dev/nestjs-lms
+  - imat-dev/ab-law
 ---
 
 <PageTitle>
   ### My Open-Source Projects
 </PageTitle>
 
-Discover my most popular open-source projects on Github.
+Discover my open-source projects on Github.
 
 
 

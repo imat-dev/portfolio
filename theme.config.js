@@ -54,7 +54,7 @@ export const menu = [
 
 export const social = [
   {
-    name: 'Twitter',
+    name: 'Facebook',
     url: 'https://www.twitter.com/',
     Icon: IoLogoTwitter,
   },

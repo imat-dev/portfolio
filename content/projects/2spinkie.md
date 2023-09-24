@@ -1,28 +1,34 @@
 ---
 layout: Post
-title: Brand refresh for saas cloud platform application
-description: The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.
-date: '2022-11-21'
+title: Spinkie Website
+description: E-commerce website of a retail brand for moms and babies
+date: '2022-11-22'
+url: https://spinkie.com/
 tags:
-  - next-js
-  - tailwindcss
-  - graphql
+  - WordPress
+  - WooCommerce
 logo:
-  src: /icons/logo-2.svg
-  alt: Company X
+  src: 
+  alt: 
 images:
-  - src: /projects/project-2.png
-    alt: image alt text
+  - src: /projects/spinkie.png
+    alt: Spinkie homepage
     overlay:
-      src: /projects/project-2-mobile.png
-      alt: overlay image
+      src: /projects/spinkie-mobile.png
+      alt: Spinkie Mobile
+  - src: /projects/project-1.png
+    alt: Customers Dashboard
   - src: /projects/project-2.png
-    alt: image alt text
+    alt: Inovice & Payments
+  - src: /projects/project-3.png
+    alt: Inovice & Payments
+  - src: /projects/project-4.png
+    alt: Inovice & Payments
 attributes:
   - label: Duration
-    value: 14 Weeks
+    value: 2 Month
   - label: Role
-    value: Admin Panel Design
+    value: Lead Full Stack Developer
 ---
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
