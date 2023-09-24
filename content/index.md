@@ -174,9 +174,13 @@ list:
     icon:
       src: /icons/git.svg
   - title: AWS
-    level: 2
+    level: 3
     icon:
       src: /icons/aws.svg
+  - title: CI/CD
+    level: 3
+    icon:
+      src: /icons/devops.svg
   - title: Heroku
     level: 3
     icon:
