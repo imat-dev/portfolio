@@ -140,7 +140,7 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies, skills }) =
         <h3 className="mb-2 text-white">I'm specialized in</h3>
         <h3 className="inline">
           <Typewriter
-            lines={['Full Stack Development', 'WordPress', 'E-Commerce']}
+            lines={['Full-stack Development', 'NestJS', 'Next.js', 'React', 'Node.js', 'Javascript', 'WordPress', 'E-Commerce']}
             lineClassName="text-gradient-500"
           />
         </h3>
