@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import './prism.css' layer(base);
+@import './prism.css'; /* unlayered, like v3: must beat typography's .prose pre styles */
 
 @config '../tailwind.config.js';
 

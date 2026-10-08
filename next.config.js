@@ -7,8 +7,9 @@ const svgrLoader = { loaders: ['@svgr/webpack'], as: '*.js' }
 module.exports = withBundleAnalyzer({
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
-    // Next 16 only allows quality 75 unless listed; components/Image.jsx uses 90
-    qualities: [75, 90],
+    // Next 16 only serves listed qualities (default [75]). Image.jsx defaults to 90;
+    // ImageGallery and BlogCardHorizontal pass 100.
+    qualities: [75, 90, 100],
   },
   turbopack: {
     rules: {
