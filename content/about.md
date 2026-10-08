@@ -2,7 +2,7 @@
 layout: About
 seo:
   title: About Me
-  description: Imat Marasigan is an AI Software Engineer building LLM apps and multi-agent systems in Python and TypeScript, backed by 8+ years co-running a web agency and shipping production platforms.
+  description: Imat Marasigan is an AI Software Engineer building LLM apps and multi-agent systems in Python and TypeScript, backed by 11+ years co-running a web agency and shipping production platforms.
 ---
 
 ---personal_info
@@ -16,7 +16,7 @@ images:
 
 I'm an AI Software Engineer who builds LLM applications and multi-agent systems in Python and TypeScript. My latest project is an open-source deep-research system where a clarifier and four AI agents plan web searches, run them in parallel and write a long-form report.
 
-Before AI, I spent 8+ years co-running Dthree Digital, a web agency, as lead full-stack developer. I took client projects from requirements to production, including the Ateneo de Manila University and AmCham Philippines websites and more than 10 e-commerce platforms. That work is the foundation I bring to AI: APIs, databases, deployment, and shipping on a deadline.
+Before AI, I spent 11+ years in software, most of them co-running Dthree Digital, a web agency, as lead full-stack developer. I took client projects from requirements to production, including the Ateneo de Manila University and AmCham Philippines websites and more than 10 e-commerce platforms. That work is the foundation I bring to AI: APIs, databases, deployment, and shipping on a deadline.
 
 Outside work, I've been happily married for 2 years, and I try to learn something new in tech every day.
 

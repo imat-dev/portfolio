@@ -115,7 +115,7 @@ export const siteMetaData = {
   defaultTitle: 'Imat Marasigan - AI Software Engineer',
   titleTemplate: 'Imat Marasigan | %s',
   description:
-    'AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 8+ years shipping production web platforms.',
+    'AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 11+ years shipping production web platforms.',
   email: 'raymart.marasigan@gmail.com',
   locale: 'en_US',
   twitter: {

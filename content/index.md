@@ -2,7 +2,7 @@
 layout: Home
 seo:
   title: AI Software Engineer
-  description: Imat Marasigan is an AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 8+ years shipping production web platforms in Next.js, NestJS and React.
+  description: Imat Marasigan is an AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 11+ years shipping production web platforms in Next.js, NestJS and React.
 ---
 
 ---main
@@ -19,10 +19,10 @@ images:
 
 <Sep size={12} />
 
-I build LLM applications and multi-agent systems in Python and TypeScript. Before AI, I spent 8+ years co-running <a href="https://dthree.com.ph/" target="_blank"><span><em>Dthree Digital</em></span></a>, shipping 100+ production websites and platforms with Next.js, NestJS, React and Node.js, so I know what it takes to get from prototype to production.
+I build LLM applications and multi-agent systems in Python and TypeScript. Before AI, I spent 11+ years in software, most of them co-running <a href="https://dthree.com.ph/" target="_blank"><span><em>Dthree Digital</em></span></a>, shipping 100+ production websites and platforms with Next.js, NestJS, React and Node.js, so I know what it takes to get from prototype to production.
 
 ---achievements
-- number: 8+
+- number: 11+
   text: Years shipping production software
 - number: 100+
   text: Projects delivered
