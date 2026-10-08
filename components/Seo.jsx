@@ -1,5 +1,6 @@
 import React from 'react'
-import { NextSeo } from 'next-seo'
+import Head from 'next/head'
+import { generateNextSeo } from 'next-seo/pages'
 import { siteMetaData } from '../theme.config'
 
 const Seo = (props) => {
@@ -23,7 +24,7 @@ const Seo = (props) => {
     locale: metaData.locale,
   }
 
-  return <NextSeo {...metaData} openGraph={openGraph} />
+  return <Head>{generateNextSeo({ ...metaData, openGraph })}</Head>
 }
 
 export default Seo

@@ -31,10 +31,11 @@ const Layout = ({
       <ArticleJsonLd
         type="BlogPosting"
         url={pageUrl}
-        title={title}
-        images={images.map((img) => siteUrl + img.src)}
+        mainEntityOfPage={{ '@type': 'WebPage', '@id': pageUrl }}
+        headline={title}
+        image={images.map((img) => siteUrl + img.src)}
         datePublished={date}
-        authorName={authorName}
+        author={authorName}
         description={seo?.description || description}
       />
       <div className="relative mx-auto my-auto w-full p-4 pb-20 lg:p-20">

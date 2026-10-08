@@ -1,13 +1,13 @@
 import React from 'react'
 import classNames from 'clsx'
-import Link from 'next/link'
 
 const Tag = (props) => {
   const { children, className, slug, ...rest } = props
 
+  // Tags are intentionally not links (href was removed in fcbf1c9); Next 16 <Link>
+  // throws without an href, so render a plain element in both cases.
   const isLinked = Array.isArray(slug)
-  const Component = isLinked ? Link : 'span'
-  const href = isLinked ? slug.join('/') : undefined
+  const Component = 'span'
 
   return (
     <Component
@@ -17,7 +17,6 @@ const Tag = (props) => {
         isLinked && 'hover:bg-beta/20',
         className
       )}
-     
       {...rest}
     >
       {children}

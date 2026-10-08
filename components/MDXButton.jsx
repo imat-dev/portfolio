@@ -1,10 +1,7 @@
 import Button from '@/components/Button'
 import Link from '@/components/Link'
 
-const MDXButton = (props) => (
-  <Link {...props} passHref legacyBehavior>
-    <Button {...props} />
-  </Link>
-)
+// Button renders the Link as its root element, so there is a single <a>.
+const MDXButton = (props) => <Button as={Link} {...props} />
 
 export default MDXButton
