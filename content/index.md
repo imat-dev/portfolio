@@ -13,7 +13,7 @@ images:
     alt: Raymart "Imat" Marasigan
 ---
 
-# <Typewriter>Raymart "Imat"<br />Marasigan</Typewriter>
+# <Typewriter className="lg:text-5xl">Raymart Marasigan</Typewriter>
 
 # *AI Software Engineer*
 
