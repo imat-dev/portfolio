@@ -12,7 +12,7 @@ Welcome to the GitHub repository of my personal portfolio website. This site sho
 
 ## Technologies Used
 
-- **Frontend**: React, NextJS
+- **Frontend**: React 19, Next.js 16 (pages router), Tailwind CSS 4
 - **Backend**: NextJS
 - **Deployment**: Hosted on Vercel
 
@@ -22,8 +22,11 @@ To set up this project locally:
 
 1. Clone this repository: `git clone [repository-link]`
 2. Navigate to the project directory: `cd [repository-name]`
-3. Install dependencies: `npm install` (if applicable)
-4. Start the local server: `npm start` (or relevant command)
+3. Use Node.js 22 or newer
+4. Install dependencies: `npm install`
+5. Start the dev server: `npm run dev`, then open http://localhost:3000
+
+Other scripts: `npm run build` (production build + sitemap), `npm run start` (serve the build), `npm run lint`, `npm run analyze` (bundle analyzer).
 
 ## Feedback and Contributions
 
