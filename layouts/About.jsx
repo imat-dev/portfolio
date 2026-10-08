@@ -73,7 +73,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
   return (
     <div className="mx-auto">
       <div className="prose prose-invert md:flex">
-        <div className="relative flex h-screen basis-1/3 flex-col justify-between pb-24 md:h-auto md:items-center md:py-12">
+        <div className="relative flex h-screen basis-1/3 flex-col justify-between pb-24 md:sticky md:top-0 md:h-screen md:items-center md:self-start md:py-12">
           <div className="not-prose absolute top-0 left-0 h-full w-full bg-omega-900 grayscale">
             {personal_info.images?.[0] && (
               <Image
@@ -81,6 +81,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
                 alt={personal_info.images[0].alt}
                 animation="fade-in zoom-out"
                 className="object-cover"
+                sizes="(min-width: 768px) 33vw, 100vw"
                 priority
                 fill
               />

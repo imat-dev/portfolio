@@ -2,7 +2,7 @@
 layout: Projects
 seo:
   title: AI & Software Engineering Projects
-  description: AI agent and LLM projects by Imat Marasigan, plus production web platforms delivered for clients such as Ateneo de Manila University and AmCham Philippines.
+  description: AI agent and LLM projects by Raymart "Imat" Marasigan, plus production web platforms delivered for clients such as Ateneo de Manila University and AmCham Philippines.
 ---
 
 ---github

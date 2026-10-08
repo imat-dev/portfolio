@@ -2,7 +2,7 @@
 layout: Contact
 seo:
   title: Contact Me
-  description: Contact Imat Marasigan, AI Software Engineer, about AI Engineer and full-stack AI roles, remote or contract.
+  description: Contact Raymart "Imat" Marasigan, AI Software Engineer, about AI Engineer and full-stack AI roles, remote or contract.
 ---
 
 

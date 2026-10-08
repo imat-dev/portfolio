@@ -2,18 +2,18 @@
 layout: Home
 seo:
   title: AI Software Engineer
-  description: Imat Marasigan is an AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 11+ years shipping production web platforms in Next.js, NestJS and React.
+  description: Raymart "Imat" Marasigan is an AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 11+ years shipping production web platforms in Next.js, NestJS and React.
 ---
 
 ---main
 images:
-  - src: /imat.jpeg
-    alt: Imat Marasigan
-  - src: /hero-mobile.jpg
-    alt: Imat Marasigan
+  - src: /imat-hero.jpg
+    alt: Raymart "Imat" Marasigan
+  - src: /imat-hero-mobile.jpg
+    alt: Raymart "Imat" Marasigan
 ---
 
-# <Typewriter>Imat Marasigan</Typewriter>
+# <Typewriter>Raymart "Imat"<br />Marasigan</Typewriter>
 
 # *AI Software Engineer*
 

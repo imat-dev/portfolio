@@ -110,10 +110,10 @@ export const mdxConfig = {
 
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
-  authorName: 'Imat Marasigan',
-  siteName: 'Imat Marasigan - AI Software Engineer',
-  defaultTitle: 'Imat Marasigan - AI Software Engineer',
-  titleTemplate: 'Imat Marasigan | %s',
+  authorName: 'Raymart "Imat" Marasigan',
+  siteName: 'Raymart "Imat" Marasigan - AI Software Engineer',
+  defaultTitle: 'Raymart "Imat" Marasigan - AI Software Engineer',
+  titleTemplate: 'Raymart "Imat" Marasigan | %s',
   description:
     'AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 11+ years shipping production web platforms.',
   email: 'raymart.marasigan@gmail.com',

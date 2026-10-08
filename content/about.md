@@ -2,14 +2,14 @@
 layout: About
 seo:
   title: About Me
-  description: Imat Marasigan is an AI Software Engineer building LLM apps and multi-agent systems in Python and TypeScript, backed by 11+ years co-running a web agency and shipping production platforms.
+  description: Raymart "Imat" Marasigan is an AI Software Engineer building LLM apps and multi-agent systems in Python and TypeScript, backed by 11+ years in software, most of them co-running a web agency and shipping production platforms.
 ---
 
 ---personal_info
-name: Imat Marasigan
+name: Raymart "Imat" Marasigan
 images:
-  - src: /imat2.JPG
-    alt: Imat Marasigan
+  - src: /imat-about.jpg
+    alt: Raymart "Imat" Marasigan
 ---
 
 ##### <span>01.</span> About me
