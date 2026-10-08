@@ -19,14 +19,14 @@ const MDXYoutube = ({ id, ...props }) => {
           playerClass={classNames(
             'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2',
             'w-24 h-16 z-20 bg-red-600 transition-transform group-hover:scale-110',
-            'opacity-[var(--yt-btn-opacity,1)]',
+            'opacity-(--yt-btn-opacity,1)',
             'before:content-["_"]',
             'before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2',
             'before:border-solid before:border-t-[1em] before:border-b-[1em] before:border-l-[2em] before:border-transparent before:border-l-white'
           )}
           wrapperClass={classNames(
             'bg-black relative block bg-center bg-cover cursor-pointer group',
-            'after:content-["_"] after:block after:pb-[var(--aspect-ratio)]',
+            'after:content-["_"] after:block after:pb-(--aspect-ratio)',
             'before:content-["_"] before:absolute before:top-0 before:left-0 before:h-full before:w-full before:z-10',
             'before:bg-omega-900 before:opacity-0 hover:before:opacity-50',
             'before:transition-opacity'

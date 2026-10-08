@@ -68,7 +68,7 @@ const ImageGallery = (props) => {
             alt={image.alt}
             priority={i === 0}
             animation="fade-in zoom-out"
-            wrapperClassName="aspect-w-16 aspect-h-9"
+            wrapperClassName="aspect-video"
             className="object-cover"
             sizes={i === 0 ? '(min-width: 1120px) 1120px, 33vw' : '(min-width: 540px) 428px, 8vw'}
             fill
@@ -79,7 +79,7 @@ const ImageGallery = (props) => {
               onClick={() => setActiveIndex(i)}
               className={classNames(
                 'absolute inset-0 flex cursor-pointer flex-col items-center',
-                'opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100'
+                'opacity-0 backdrop-blur-xs transition-opacity group-hover:opacity-100'
               )}
             >
               <IoEyeSharp className="mt-auto text-3xl invert" />

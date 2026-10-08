@@ -29,7 +29,7 @@ const ThemeSwitcher = ({ setTheme }) => {
           key={name}
           className={classNames(
             switchBg,
-            'h-5 w-5 origin-right cursor-pointer bg-gradient-to-br transition-all hover:scale-x-150'
+            'h-5 w-5 origin-right cursor-pointer bg-linear-to-br transition-all hover:scale-x-150'
           )}
           onClick={() => setTheme(name)}
         />

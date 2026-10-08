@@ -41,7 +41,7 @@ const Image = (props) => {
       />
 
       <NextImage
-        onLoadingComplete={onLoadingComplete}
+        onLoad={onLoadingComplete}
         className={classNames(
           'md:transform-gpu md:transition-all md:duration-700',
           !isLoaded && {

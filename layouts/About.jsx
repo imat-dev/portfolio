@@ -11,7 +11,7 @@ const History = ({ title, list }) => (
     <h3>{title}</h3>
     <Reveal
       animation="fade-in scale-x"
-      className="h-1.5 bg-gradient-to-r from-black via-beta to-alpha"
+      className="h-1.5 bg-linear-to-r from-black via-beta to-alpha"
     />
     <div className="mt-6 flex flex-col md:mt-12">
       {list?.map((item, i) => (
@@ -36,19 +36,21 @@ const Skill = ({ title, icon, level }) => (
       <Icon width={28} height={28} {...icon} className="mr-3 h-7 w-7 fill-current text-omega-500" />
     )}
     <small className="font-bold">{title}</small>
-    <div className="ml-auto space-x-px">
-      {Array(5)
-        .fill(null)
-        .map((_, k) => (
-          <span
-            key={`${title}${k}-f`}
-            className={classNames(
-              'inline-block h-3.5 w-3.5',
-              k + 1 <= level ? 'bg-gradient-to-tr from-accent-700 to-accent' : 'bg-omega-700'
-            )}
-          />
-        ))}
-    </div>
+    {level > 0 && (
+      <div className="ml-auto space-x-px">
+        {Array(5)
+          .fill(null)
+          .map((_, k) => (
+            <span
+              key={`${title}${k}-f`}
+              className={classNames(
+                'inline-block h-3.5 w-3.5',
+                k + 1 <= level ? 'bg-linear-to-tr from-accent-700 to-accent' : 'bg-omega-700'
+              )}
+            />
+          ))}
+      </div>
+    )}
   </div>
 )
 
@@ -57,7 +59,7 @@ const SkillSet = ({ title, list }) => (
     <p className="col-span-3 mt-0 mb-6 self-center border-l-2 border-alpha pl-3 text-white">
       {title}
     </p>
-    <div className="grid grid-cols-fluid gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem]">
+    <div className="grid grid-cols-fluid gap-x-8 gap-y-3 [--tw-fluid-col-min:12rem]">
       {list?.map((props, j) => (
         <Reveal key={j} animation="fade-in" delay={j * 200}>
           <Skill {...props} />
@@ -71,7 +73,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
   return (
     <div className="mx-auto">
       <div className="prose prose-invert md:flex">
-        <div className="relative flex h-screen basis-1/3 flex-col justify-between pb-24 md:h-auto md:items-center md:py-12">
+        <div className="relative flex h-screen basis-1/3 flex-col justify-between pb-24 md:sticky md:top-0 md:h-screen md:items-center md:self-start md:py-12">
           <div className="not-prose absolute top-0 left-0 h-full w-full bg-omega-900 grayscale">
             {personal_info.images?.[0] && (
               <Image
@@ -79,11 +81,12 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
                 alt={personal_info.images[0].alt}
                 animation="fade-in zoom-out"
                 className="object-cover"
+                sizes="(min-width: 768px) 33vw, 100vw"
                 priority
                 fill
               />
             )}
-            <div className="absolute top-0 left-0 z-20 h-full w-full bg-gradient-to-b from-transparent via-transparent to-black/90" />
+            <div className="absolute top-0 left-0 z-20 h-full w-full bg-linear-to-b from-transparent via-transparent to-black/90" />
           </div>
           <div className="z-10 bg-black p-6 text-center">
             <h3 className="inline">{personal_info.name}</h3>
@@ -110,7 +113,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
               ))}
             </div>
           )}
-          <Reveal animation="fade-in slide-in-top" className="prose p-6 dark:prose-invert md:p-12">
+          <Reveal animation="fade-in slide-in-top" className="prose p-6 md:p-12 dark:prose-invert">
             <ContentRenderer source={personal_info} />
           </Reveal>
         </div>

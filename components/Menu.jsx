@@ -13,7 +13,7 @@ const MenuItem = ({ name, Icon, text, slug, number, isOpen, toggleMenu, ...rest 
     className={classNames(
       'h-16 md:h-auto',
       'relative z-20 flex flex-col items-center justify-center md:py-4',
-      'bg-gradient-to-tr transition-all duration-300'
+      'bg-linear-to-tr transition-all duration-300'
     )}
     aria-label={name}
     {...rest}
@@ -79,7 +79,7 @@ const Menu = () => {
         )}
       >
         {menu && (
-          <div className="grid w-full grid-cols-4 bg-gradient-to-b from-transparent to-omega-800 md:block">
+          <div className="grid w-full grid-cols-4 bg-linear-to-b from-transparent to-omega-800 md:block">
             {menu &&
               menu.map((item) => <MenuItem {...item} key={`${item.slug}`} onClick={closeMenu} />)}
             <div

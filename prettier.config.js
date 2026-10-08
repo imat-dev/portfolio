@@ -7,5 +7,7 @@ module.exports = {
   trailingComma: 'es5',
   bracketSpacing: true,
   endOfLine: 'auto',
-  plugins: [require('prettier-plugin-tailwindcss')],
+  plugins: ['prettier-plugin-tailwindcss'],
+  // Tailwind 4: the plugin reads theme/config from the CSS entry point
+  tailwindStylesheet: './styles/globals.css',
 }

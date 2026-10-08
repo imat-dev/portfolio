@@ -2,187 +2,193 @@
 layout: About
 seo:
   title: About Me
-  description: Discover the journey and passion behind Imat's work. Dive deeper into the experiences, skills, and the story of a dedicated professional ready to innovate
+  description: Raymart "Imat" Marasigan is an AI Software Engineer building LLM apps and multi-agent systems in Python and TypeScript, backed by 11+ years in software, most of them co-running a web agency and shipping production platforms.
 ---
 
-
-
 ---personal_info
-name: Imat Marasigan
+name: Raymart "Imat" Marasigan
 images:
-  - src: /imat2.JPG
-    alt: my image
+  - src: /imat-about.jpg
+    alt: Raymart "Imat" Marasigan
 ---
 
 ##### <span>01.</span> About me
 
-I've been happily married for 2 years and cherish every moment. For the past 8 years, I've led a successful web agency, navigating the dynamic world of web development. My insatiable curiosity ensures I learn a new tech skill every single day.
+I'm an AI Software Engineer who builds LLM applications and multi-agent systems in Python and TypeScript. My latest project is an open-source deep-research system where a clarifier and four AI agents plan web searches, run them in parallel and write a long-form report.
 
+Before AI, I spent 11+ years in software, most of them co-running Dthree Digital, a web agency, as lead full-stack developer. I took client projects from requirements to production, including the Ateneo de Manila University and AmCham Philippines websites and more than 10 e-commerce platforms. That work is the foundation I bring to AI: APIs, databases, deployment, and shipping on a deadline.
 
+Outside work, I've been happily married for 2 years, and I try to learn something new in tech every day.
 
 ---cta
 ---
-## Ready to discuss your project?
 
-Let's super-charge your business today!
+## Hiring an AI engineer?
+
+I'm open to AI Engineer and full-stack AI roles, remote or contract.
 
 <Button href="/contact">
-  Get a Free Price Quote
+  Let's talk
 </Button>
-
-
 
 ---skills_header
 title: I'm Specialized in
 list:
-  - Front-End Development
-  - Back-End Development
-  - Wordpres
+  - AI Agents & LLM Apps
+  - Python & TypeScript
+  - Full-Stack Platforms
+  - Mobile Apps
   - E-Commerce
 ---
 
-
-
-
-
 ---skills[0]
+title: AI Engineering
+list:
+  - title: Python
+    icon:
+      src: /icons/python.svg
+  - title: OpenAI Agents SDK
+    icon:
+      src: /icons/agents.svg
+  - title: CrewAI
+    icon:
+      src: /icons/crewai.svg
+  - title: LLM APIs
+    icon:
+      src: /icons/chat.svg
+  - title: Claude
+    icon:
+      src: /icons/claude.svg
+  - title: Prompt engineering
+    icon:
+      src: /icons/prompt.svg
+  - title: Structured outputs (Pydantic)
+    icon:
+      src: /icons/pydantic.svg
+  - title: FastAPI
+    icon:
+      src: /icons/fastapi.svg
+  - title: Gradio
+    icon:
+      src: /icons/gradio.svg
+  - title: Codex
+    icon:
+      src: /icons/prompt.svg
+---
+
+---skills[1]
 title: Back-End Development
 list:
+  - title: TypeScript
+    icon:
+      src: /icons/ts.svg
   - title: Node.js
-    level: 4
     icon:
       src: /icons/nodedotjs.svg
-  - title: PHP
-    level: 4
-    icon:
-      src: /icons/php.svg
   - title: NestJS
-    level: 4
     icon:
       src: /icons/nestjs.svg
+  - title: PHP
+    icon:
+      src: /icons/php.svg
   - title: MySQL
-    level: 4
     icon:
       src: /icons/mysql.svg
   - title: MongoDB
-    level: 4
     icon:
       src: /icons/mongo.svg
   - title: Redis
-    level: 3
     icon:
-      src: /icons/firebase.svg
-  - title: TypeScript
-    level: 4
+      src: /icons/redis.svg
+  - title: Supabase
     icon:
-      src: /icons/ts.svg
----
-
-
-
----skills[1]
-########################################
-### Skills
-########################################
-title: Front-End Development
-list:
-  - title: NextJS
-    level: 4
-    icon:
-      src: /icons/nextjs.svg
-  - title: JavaScript
-    level: 4
-    icon:
-      src: /icons/javascript.svg
-  - title: React
-    level: 4
-    icon:
-      src: /icons/react.svg
-  - title: Redux
-    level: 4
-    icon:
-      src: /icons/redux.svg
-  - title: TailwindCSS
-    level: 4
-    icon:
-      src: /icons/tailwind.svg
-  - title: Bootstrap
-    level: 5
-    icon:
-      src: /icons/bootstrap.svg
-  - title: HTML
-    level: 5
-    icon:
-      src: /icons/html.svg
-  - title: CSS
-    level: 5
-    icon:
-      src: /icons/css.svg
+      src: /icons/supabase.svg
 ---
 
 ---skills[2]
-########################################
-### Skills
-########################################
-title: Content Management System (CMS)
+title: Front-End Development
 list:
-  - title: WordPress
-    level: 5
+  - title: Next.js
     icon:
-      src: /icons/wordpress.svg
-  - title: Drupal
-    level: 4
+      src: /icons/nextjs.svg
+  - title: React
     icon:
-      src: /icons/drupal.svg
-  - title: Shopify
-    level: 3
+      src: /icons/react.svg
+  - title: JavaScript
     icon:
-      src: /icons/shopify.svg
-  - title: Statamic
-    level: 2
+      src: /icons/javascript.svg
+  - title: Redux
     icon:
-      src: /icons/statamic.svg
-  - title: Strapi.io
-    level: 3
+      src: /icons/redux.svg
+  - title: Tailwind CSS
     icon:
-      src: /icons/strapi.svg
+      src: /icons/tailwind.svg
 ---
 
 ---skills[3]
-########################################
-### Skills
-########################################
-title: Others
+title: Mobile Development
 list:
-  - title: Git
-    level: 4
+  - title: React Native
     icon:
-      src: /icons/git.svg
+      src: /icons/react.svg
+  - title: iOS
+    icon:
+      src: /icons/ios.svg
+  - title: Android
+    icon:
+      src: /icons/android.svg
+---
+
+---skills[4]
+title: Cloud & DevOps
+list:
   - title: AWS
-    level: 2
     icon:
       src: /icons/aws.svg
-  - title: Heroku
-    level: 3
-    icon:
-      src: /icons/domain.svg
-  - title: Tech. SEO
-    level: 4
-    icon:
-      src: /icons/seo.svg
-  - title: Vercel
-    level: 2
-    icon:
-      src: /icons/vercel.svg
-  - title: Hostings
-    level: 5
-    icon:
-      src: /icons/hosting.svg
   - title: Docker
-    level: 2
     icon:
       src: /icons/docker.svg
+  - title: CI/CD
+    icon:
+      src: /icons/devops.svg
+  - title: Vercel
+    icon:
+      src: /icons/vercel.svg
+  - title: Git
+    icon:
+      src: /icons/git.svg
+  - title: Heroku
+    icon:
+      src: /icons/domain.svg
+  - title: Web hosting
+    icon:
+      src: /icons/hosting.svg
+  - title: Technical SEO
+    icon:
+      src: /icons/seo.svg
+---
 
+---skills[5]
+title: CMS & E-Commerce
+list:
+  - title: WordPress
+    icon:
+      src: /icons/wordpress.svg
+  - title: WooCommerce
+    icon:
+      src: /icons/woocommerce.svg
+  - title: Drupal
+    icon:
+      src: /icons/drupal.svg
+  - title: Shopify
+    icon:
+      src: /icons/shopify.svg
+  - title: Strapi
+    icon:
+      src: /icons/strapi.svg
+  - title: Statamic
+    icon:
+      src: /icons/statamic.svg
 ---
 
 
@@ -190,17 +196,15 @@ list:
 title: Employment
 list:
   - name: Dthree Digital
-    description: Co-Founder & Senior Web Developer
-    date: 2016 -  Present
-  - name: Starfish Web Design
-    description: Web Developer
-    date: 2013 - 2016
+    description: Co-Founder & Lead Full-Stack Developer
+    date: 2016 - Present
   - name: Freelancer
     description: Freelance Web Developer
     date: 2016 - Present
+  - name: Starfish Web Design
+    description: Web Developer
+    date: 2013 - 2016
 ---
-
-
 
 ---history[1]
 title: Education

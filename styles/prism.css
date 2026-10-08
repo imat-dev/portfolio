@@ -1,23 +1,31 @@
 /* Available themes: https://github.com/PrismJS/prism-themes */
+/* Plain CSS (no @apply): the dev bundler also compiles this file on its own, outside
+   Tailwind's context. Values match the Tailwind 4 utilities they replaced. */
 @import 'prism-themes/themes/prism-material-dark.min.css';
 
 pre {
-  @apply overflow-auto;
+  overflow: auto;
 }
 
 code {
-  @apply px-2 py-1;
+  padding-inline: calc(var(--spacing) * 2);
+  padding-block: var(--spacing);
   background: var(--tw-prose-pre-bg);
   color: var(--tw-prose-pre-code);
 }
 
 pre[class*='language-'] {
-  @apply my-8 rounded-none font-mono text-base;
+  margin-block: calc(var(--spacing) * 8);
+  border-radius: 0;
+  font-family: var(--font-mono);
+  font-size: var(--text-base);
+  line-height: var(--tw-leading, var(--text-base--line-height));
   background: var(--tw-prose-pre-bg);
 }
 
 pre[class*='language-'] code[class*='language-'] {
-  @apply whitespace-pre-wrap bg-transparent;
+  white-space: pre-wrap;
+  background-color: transparent;
 }
 
 /**
