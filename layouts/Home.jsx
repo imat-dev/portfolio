@@ -149,6 +149,7 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies, skills }) =
               'TypeScript',
               'Next.js',
               'NestJS',
+              'React Native',
               'Full-Stack Platforms',
             ]}
             lineClassName="text-gradient-500"

@@ -37,6 +37,7 @@ list:
   - AI Agents & LLM Apps
   - Python & TypeScript
   - Full-Stack Platforms
+  - Mobile Apps
   - E-Commerce
 ---
 
@@ -49,9 +50,15 @@ list:
   - title: OpenAI Agents SDK
     icon:
       src: /icons/agents.svg
+  - title: CrewAI
+    icon:
+      src: /icons/crewai.svg
   - title: LLM APIs
     icon:
       src: /icons/chat.svg
+  - title: Claude
+    icon:
+      src: /icons/claude.svg
   - title: Prompt engineering
     icon:
       src: /icons/prompt.svg
@@ -64,6 +71,9 @@ list:
   - title: Gradio
     icon:
       src: /icons/gradio.svg
+  - title: Codex
+    icon:
+      src: /icons/prompt.svg
 ---
 
 ---skills[1]
@@ -122,6 +132,20 @@ list:
 ---
 
 ---skills[3]
+title: Mobile Development
+list:
+  - title: React Native
+    icon:
+      src: /icons/react.svg
+  - title: iOS
+    icon:
+      src: /icons/ios.svg
+  - title: Android
+    icon:
+      src: /icons/android.svg
+---
+
+---skills[4]
 title: Cloud & DevOps
 list:
   - title: AWS
@@ -150,7 +174,7 @@ list:
       src: /icons/seo.svg
 ---
 
----skills[4]
+---skills[5]
 title: CMS & E-Commerce
 list:
   - title: WordPress
