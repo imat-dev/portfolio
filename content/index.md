@@ -115,15 +115,6 @@ list:
   - title: Tailwind CSS
     icon:
       src: /icons/tailwind.svg
-  - title: HTML
-    icon:
-      src: /icons/html.svg
-  - title: CSS
-    icon:
-      src: /icons/css.svg
-  - title: Bootstrap
-    icon:
-      src: /icons/bootstrap.svg
 ---
 
 ---skills[3]
