@@ -54,7 +54,7 @@ const Achievements = ({ achievements }) => (
   <Reveal
     animation="fade-in slide-in-left"
     className={classNames(
-      'prose prose-invert relative z-10 flex flex-wrap md:mt-12',
+      'relative z-10 prose flex flex-wrap prose-invert md:mt-12',
       'md:bg-gradient-omega-900 md:shadow-2xl'
     )}
   >
@@ -85,7 +85,7 @@ const SkillSet = ({ title, list }) => (
     <p className="col-span-3 mt-0 mb-6 self-center border-l-2 border-alpha pl-3 text-white">
       {title}
     </p>
-    <div className="grid grid-cols-fluid gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem]">
+    <div className="grid grid-cols-fluid gap-x-8 gap-y-3 [--tw-fluid-col-min:12rem]">
       {list?.map((props, j) => (
         <Reveal key={j} animation="fade-in" delay={j * 200}>
           <Skill {...props} />
@@ -101,19 +101,21 @@ const Skill = ({ title, icon, level }) => (
       <Icon width={28} height={28} {...icon} className="mr-3 h-7 w-7 fill-current text-omega-500" />
     )}
     <small className="font-bold">{title}</small>
-    <div className="ml-auto space-x-px">
-      {Array(5)
-        .fill(null)
-        .map((_, k) => (
-          <span
-            key={`${title}${k}-f`}
-            className={classNames(
-              'inline-block h-3.5 w-3.5',
-              k + 1 <= level ? 'bg-linear-to-tr from-accent-700 to-accent' : 'bg-omega-700'
-            )}
-          />
-        ))}
-    </div>
+    {level > 0 && (
+      <div className="ml-auto space-x-px">
+        {Array(5)
+          .fill(null)
+          .map((_, k) => (
+            <span
+              key={`${title}${k}-f`}
+              className={classNames(
+                'inline-block h-3.5 w-3.5',
+                k + 1 <= level ? 'bg-linear-to-tr from-accent-700 to-accent' : 'bg-omega-700'
+              )}
+            />
+          ))}
+      </div>
+    )}
   </div>
 )
 
@@ -126,7 +128,7 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies, skills }) =
       <div className="z-10 mt-6 basis-full md:m-0">
         <HeroAbout main={main} />
         <Achievements achievements={achievements} />
-        <div className="prose prose-invert mt-6 md:mt-12">
+        <div className="prose mt-6 prose-invert md:mt-12">
           <ContentRenderer source={cta} />
         </div>
       </div>
@@ -135,12 +137,20 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies, skills }) =
       <Companies {...companies} />
     </div> */}
 
-    <div className="mt-20  px-4 text-white md:block">
+    <div className="mt-20 px-4 text-white md:block">
       <div className="mb-12">
         <h3 className="mb-2 text-white">I'm specialized in</h3>
         <h3 className="inline">
           <Typewriter
-            lines={['Full-stack Dev', 'NestJS', 'Next.js', 'React', 'Node.js', 'Javascript', 'WordPress', 'E-Commerce']}
+            lines={[
+              'AI Agents',
+              'LLM Apps',
+              'Python',
+              'TypeScript',
+              'Next.js',
+              'NestJS',
+              'Full-Stack Platforms',
+            ]}
             lineClassName="text-gradient-500"
           />
         </h3>

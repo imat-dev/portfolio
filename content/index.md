@@ -1,38 +1,34 @@
 ---
 layout: Home
 seo:
-  title: Web Developer
-  description: Showcasing Imat's expertise as a web developer. Dive into a portfolio filled with innovative projects, cutting-edge technologies, and a passion for creating seamless user experiences.
+  title: AI Software Engineer
+  description: Imat Marasigan is an AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 8+ years shipping production web platforms in Next.js, NestJS and React.
 ---
 
 ---main
 images:
   - src: /imat.jpeg
-    alt: my photo
+    alt: Imat Marasigan
   - src: /hero-mobile.jpg
-    alt: my photo
+    alt: Imat Marasigan
 ---
 
 # <Typewriter>Imat Marasigan</Typewriter>
 
-# *Full-Stack Web Developer*
+# *AI Software Engineer*
 
 <Sep size={12} />
 
-Co-founder of <a href="https://dthree.com.ph/" target="_blank"><span><em>Dthree Digital</em></span></a> and a full-stack web developer, I'm adept at crafting dynamic, scalable web apps and websites using Node.js, React, WordPress, and Drupal; committed to code quality, innovation, and passionate collaboration for impactful projects..
-
-
+I build LLM applications and multi-agent systems in Python and TypeScript. Before AI, I spent 8+ years co-running <a href="https://dthree.com.ph/" target="_blank"><span><em>Dthree Digital</em></span></a>, shipping 100+ production websites and platforms with Next.js, NestJS, React and Node.js, so I know what it takes to get from prototype to production.
 
 ---achievements
 - number: 8+
-  text: Years of experience
+  text: Years shipping production software
 - number: 100+
-  text: Projects Completed
+  text: Projects delivered
 - number: 10+
-  text: E-Commerce Completed
+  text: E-commerce platforms
 ---
-
-
 
 ---cta
 ---
@@ -40,166 +36,136 @@ Co-founder of <a href="https://dthree.com.ph/" target="_blank"><span><em>Dthree 
   Download Resume
 </Button>
 
-
-
----companies
-title: Trusted By
+---skills[0]
+title: AI Engineering
 list:
-  - name: Company 1
+  - title: Python
     icon:
-      src: /icons/logo-1.svg
-  - name: Company 2
+      src: /icons/python.svg
+  - title: OpenAI Agents SDK
     icon:
-      src: /icons/logo-3.svg
-  - name: Company 3
+      src: /icons/agents.svg
+  - title: LLM APIs
     icon:
-      src: /icons/logo-3.svg
-  - name: Company 4
+      src: /icons/chat.svg
+  - title: Prompt engineering
     icon:
-      src: /icons/logo-4.svg
+      src: /icons/prompt.svg
+  - title: Structured outputs (Pydantic)
+    icon:
+      src: /icons/pydantic.svg
+  - title: FastAPI
+    icon:
+      src: /icons/fastapi.svg
+  - title: Gradio
+    icon:
+      src: /icons/gradio.svg
 ---
 
-
----skills[0]
+---skills[1]
 title: Back-End Development
 list:
+  - title: TypeScript
+    icon:
+      src: /icons/ts.svg
   - title: Node.js
-    level: 4
     icon:
       src: /icons/nodedotjs.svg
-  - title: PHP
-    level: 4
-    icon:
-      src: /icons/php.svg
   - title: NestJS
-    level: 4
     icon:
       src: /icons/nestjs.svg
+  - title: PHP
+    icon:
+      src: /icons/php.svg
   - title: MySQL
-    level: 4
     icon:
       src: /icons/mysql.svg
   - title: MongoDB
-    level: 4
     icon:
       src: /icons/mongo.svg
   - title: Redis
-    level: 3
     icon:
-      src: /icons/firebase.svg
-  - title: TypeScript
-    level: 4
-    icon:
-      src: /icons/ts.svg
----
-
-
-
----skills[1]
-########################################
-### Skills
-########################################
-title: Front-End Development
-list:
-  - title: NextJS
-    level: 4
-    icon:
-      src: /icons/nextjs.svg
-  - title: JavaScript
-    level: 4
-    icon:
-      src: /icons/javascript.svg
-  - title: React
-    level: 4
-    icon:
-      src: /icons/react.svg
-  - title: Redux
-    level: 4
-    icon:
-      src: /icons/redux.svg
-  - title: TailwindCSS
-    level: 4
-    icon:
-      src: /icons/tailwind.svg
-  - title: Bootstrap
-    level: 5
-    icon:
-      src: /icons/bootstrap.svg
-  - title: HTML
-    level: 5
-    icon:
-      src: /icons/html.svg
-  - title: CSS
-    level: 5
-    icon:
-      src: /icons/css.svg
+      src: /icons/redis.svg
 ---
 
 ---skills[2]
-########################################
-### Skills
-########################################
-title: Content Management System (CMS)
+title: Front-End Development
 list:
-  - title: WordPress
-    level: 5
+  - title: Next.js
     icon:
-      src: /icons/wordpress.svg
-  - title: Drupal
-    level: 4
+      src: /icons/nextjs.svg
+  - title: React
     icon:
-      src: /icons/drupal.svg
-  - title: Shopify
-    level: 3
+      src: /icons/react.svg
+  - title: JavaScript
     icon:
-      src: /icons/shopify.svg
-  - title: Statamic
-    level: 2
+      src: /icons/javascript.svg
+  - title: Redux
     icon:
-      src: /icons/statamic.svg
-  - title: Strapi.io
-    level: 3
+      src: /icons/redux.svg
+  - title: Tailwind CSS
     icon:
-      src: /icons/strapi.svg
+      src: /icons/tailwind.svg
+  - title: HTML
+    icon:
+      src: /icons/html.svg
+  - title: CSS
+    icon:
+      src: /icons/css.svg
+  - title: Bootstrap
+    icon:
+      src: /icons/bootstrap.svg
 ---
 
 ---skills[3]
-########################################
-### Skills
-########################################
-title: Others
+title: Cloud & DevOps
 list:
-  - title: Git
-    level: 4
-    icon:
-      src: /icons/git.svg
   - title: AWS
-    level: 3
     icon:
       src: /icons/aws.svg
-  - title: CI/CD
-    level: 3
-    icon:
-      src: /icons/devops.svg
-  - title: Heroku
-    level: 3
-    icon:
-      src: /icons/domain.svg
-  - title: Tech. SEO
-    level: 4
-    icon:
-      src: /icons/seo.svg
-  - title: Vercel
-    level: 2
-    icon:
-      src: /icons/vercel.svg
-  - title: Hostings
-    level: 5
-    icon:
-      src: /icons/hosting.svg
   - title: Docker
-    level: 2
     icon:
       src: /icons/docker.svg
-
+  - title: CI/CD
+    icon:
+      src: /icons/devops.svg
+  - title: Vercel
+    icon:
+      src: /icons/vercel.svg
+  - title: Git
+    icon:
+      src: /icons/git.svg
+  - title: Heroku
+    icon:
+      src: /icons/domain.svg
+  - title: Web hosting
+    icon:
+      src: /icons/hosting.svg
+  - title: Technical SEO
+    icon:
+      src: /icons/seo.svg
 ---
+
+---skills[4]
+title: CMS & E-Commerce
+list:
+  - title: WordPress
+    icon:
+      src: /icons/wordpress.svg
+  - title: WooCommerce
+    icon:
+      src: /icons/woocommerce.svg
+  - title: Drupal
+    icon:
+      src: /icons/drupal.svg
+  - title: Shopify
+    icon:
+      src: /icons/shopify.svg
+  - title: Strapi
+    icon:
+      src: /icons/strapi.svg
+  - title: Statamic
+    icon:
+      src: /icons/statamic.svg
+---
+

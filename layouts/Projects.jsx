@@ -6,13 +6,13 @@ import Reveal from '@/components/Reveal'
 const Layout = ({ projects, github }) => {
   return (
     <div className="mx-auto p-3 md:p-6 lg:p-12">
-      <div className="prose prose-headings:mb-4 dark:prose-invert">
+      <div className="prose dark:prose-invert prose-headings:mb-4">
         <div class="-mx-3 -mt-3 md:m-0">
           <div class="bg-linear-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
             <h3>
-              <em>Explore My Open-Source Endeavors</em>
+              <em>Open-Source Code</em>
             </h3>
-            <p>Discover my open-source projects on Github.</p>
+            <p>AI agents, Python and TypeScript projects on GitHub.</p>
           </div>
           <div class="h-px w-full bg-linear-to-r from-accent via-beta to-alpha md:bg-none"></div>
         </div>
@@ -46,11 +46,15 @@ const Layout = ({ projects, github }) => {
         <div class="-mx-3 -mt-5 md:m-0">
           <div class="bg-linear-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
             <h3>
-              <em>Latest Projects</em>
+              <em>Projects</em>
             </h3>
             <p>
-              Thanks for stopping by my portfolio! It's under construction for a better experience.
-              Meanwhile, explore my projects at <a href="https://www.dthree.com.ph/projects" rel="noreferrer" target='_blank'>dthree.com.ph/projects.</a>
+              AI systems I've built, followed by production platforms I delivered for clients as
+              lead developer at{' '}
+              <a href="https://www.dthree.com.ph/projects" rel="noreferrer" target="_blank">
+                Dthree Digital
+              </a>
+              .
             </p>
           </div>
           <div class="h-px w-full bg-linear-to-r from-accent via-beta to-alpha md:bg-none"></div>

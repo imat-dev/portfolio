@@ -2,7 +2,7 @@
 layout: Contact
 seo:
   title: Contact Me
-  description: Custom description for this page goes here
+  description: Contact Imat Marasigan, AI Software Engineer, about AI Engineer and full-stack AI roles, remote or contract.
 ---
 
 
@@ -13,10 +13,10 @@ seo:
 <PageTitle>
   ### Get in touch
 
-  ### _Let's talk about your project_
+  ### _Let's talk about your team_
 </PageTitle>
 
-Thinking about a new project, a problem to solve, or just want to connect? Let's do it!
+I'm open to AI Engineer and full-stack AI roles, remote or contract.
 
 Use the form on this page or get in touch by other means.
 

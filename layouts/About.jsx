@@ -36,19 +36,21 @@ const Skill = ({ title, icon, level }) => (
       <Icon width={28} height={28} {...icon} className="mr-3 h-7 w-7 fill-current text-omega-500" />
     )}
     <small className="font-bold">{title}</small>
-    <div className="ml-auto space-x-px">
-      {Array(5)
-        .fill(null)
-        .map((_, k) => (
-          <span
-            key={`${title}${k}-f`}
-            className={classNames(
-              'inline-block h-3.5 w-3.5',
-              k + 1 <= level ? 'bg-linear-to-tr from-accent-700 to-accent' : 'bg-omega-700'
-            )}
-          />
-        ))}
-    </div>
+    {level > 0 && (
+      <div className="ml-auto space-x-px">
+        {Array(5)
+          .fill(null)
+          .map((_, k) => (
+            <span
+              key={`${title}${k}-f`}
+              className={classNames(
+                'inline-block h-3.5 w-3.5',
+                k + 1 <= level ? 'bg-linear-to-tr from-accent-700 to-accent' : 'bg-omega-700'
+              )}
+            />
+          ))}
+      </div>
+    )}
   </div>
 )
 
@@ -57,7 +59,7 @@ const SkillSet = ({ title, list }) => (
     <p className="col-span-3 mt-0 mb-6 self-center border-l-2 border-alpha pl-3 text-white">
       {title}
     </p>
-    <div className="grid grid-cols-fluid gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem]">
+    <div className="grid grid-cols-fluid gap-x-8 gap-y-3 [--tw-fluid-col-min:12rem]">
       {list?.map((props, j) => (
         <Reveal key={j} animation="fade-in" delay={j * 200}>
           <Skill {...props} />
@@ -110,7 +112,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
               ))}
             </div>
           )}
-          <Reveal animation="fade-in slide-in-top" className="prose p-6 dark:prose-invert md:p-12">
+          <Reveal animation="fade-in slide-in-top" className="prose p-6 md:p-12 dark:prose-invert">
             <ContentRenderer source={personal_info} />
           </Reveal>
         </div>

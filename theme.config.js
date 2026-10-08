@@ -6,7 +6,7 @@
  * Icons from react-icons: https://react-icons.github.io/react-icons
  */
 
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import { TfiHome, TfiPencilAlt } from 'react-icons/tfi'
 import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 
@@ -53,11 +53,6 @@ export const menu = [
  */
 
 export const social = [
-  {
-    name: 'Facebook',
-    url: 'https://www.twitter.com/',
-    Icon: IoLogoTwitter,
-  },
   {
     name: 'Github',
     url: 'https://github.com/imat-dev',
@@ -116,15 +111,14 @@ export const mdxConfig = {
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Imat Marasigan',
-  siteName: 'Imat Marasigan - Portfolio',
-  defaultTitle: 'Imat Marasigan - Portfolio',
+  siteName: 'Imat Marasigan - AI Software Engineer',
+  defaultTitle: 'Imat Marasigan - AI Software Engineer',
   titleTemplate: 'Imat Marasigan | %s',
-  description: 'My portfolio website.',
+  description:
+    'AI Software Engineer building LLM applications and multi-agent systems in Python and TypeScript, with 8+ years shipping production web platforms.',
   email: 'raymart.marasigan@gmail.com',
   locale: 'en_US',
   twitter: {
-    handle: '@handle',
-    site: '@site',
     cardType: 'summary_large_image',
   },
 }
