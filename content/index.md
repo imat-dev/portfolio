@@ -95,6 +95,9 @@ list:
   - title: Redis
     icon:
       src: /icons/redis.svg
+  - title: Supabase
+    icon:
+      src: /icons/supabase.svg
 ---
 
 ---skills[2]
