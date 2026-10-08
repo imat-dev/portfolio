@@ -68,7 +68,7 @@ const ImageGallery = (props) => {
             alt={image.alt}
             priority={i === 0}
             animation="fade-in zoom-out"
-            wrapperClassName="aspect-w-16 aspect-h-9"
+            wrapperClassName="aspect-video"
             className="object-cover"
             sizes={i === 0 ? '(min-width: 1120px) 1120px, 33vw' : '(min-width: 540px) 428px, 8vw'}
             fill

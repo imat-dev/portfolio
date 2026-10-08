@@ -1,5 +1,6 @@
 const plugin = require('tailwindcss/plugin')
-const Color = require('color')
+// color 5 is ESM-only; require() returns the module namespace
+const Color = require('color').default ?? require('color')
 
 const flattenColorPalette = (colors) =>
   Object.assign(
