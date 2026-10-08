@@ -15,7 +15,7 @@ const DateComponent = (props) => {
       rel="noreferrer noopener"
       className={classNames(
         'group prose flex h-full flex-col no-underline',
-        'bg-gradient-to-br from-alpha-100 via-alpha to-beta',
+        'bg-linear-to-br from-alpha-100 via-alpha to-beta',
         className
       )}
     >

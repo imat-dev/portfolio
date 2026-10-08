@@ -24,7 +24,7 @@ const HeroPhoto = ({ main }) =>
         <div
           className={classNames(
             'h-full w-full rounded-full md:animate-spin-slow',
-            'bg-gradient-to-tr from-alpha-600 via-beta to-accent'
+            'bg-linear-to-tr from-alpha-600 via-beta to-accent'
           )}
         />
       </Reveal>
@@ -45,7 +45,7 @@ const HeroAbout = ({ main }) => (
     animation="fade-in slide-in-bottom"
     className={classNames(
       'mx-auto max-w-3xl px-4 md:p-0',
-      'prose prose-invert prose-headings:my-4 first-of-type:prose-headings:mt-0',
+      'prose prose-invert prose-headings:my-4 prose-headings:first-of-type:mt-0',
       'prose-p:mx-auto prose-p:max-w-prose md:prose-headings:my-6',
       'prose-hr:mx-auto prose-hr:max-w-md'
     )}
@@ -75,7 +75,7 @@ const Achievements = ({ achievements }) => (
     </Reveal>
     <Reveal
       animation="fade-in scale-x"
-      className="mx-auto h-px max-w-5xl bg-gradient-to-r from-accent via-beta to-alpha"
+      className="mx-auto h-px max-w-5xl bg-linear-to-r from-accent via-beta to-alpha"
     />
   </>
 )

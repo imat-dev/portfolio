@@ -92,7 +92,7 @@ const Contact01 = ({ main = {} }) => {
         >
           {/* <FormProvider {...methods}>
             <form onSubmit={handleSubmit(onSubmit)}>
-              <div className="relative overflow-hidden shadow">
+              <div className="relative overflow-hidden shadow-sm">
                 {isSubmitSuccessful && <SuccessMessage />}
                 <div className="bg-gradient-omega-900">
                   {inputs?.map(({ legend, columns, fields }, i) => (

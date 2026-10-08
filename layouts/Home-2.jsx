@@ -39,7 +39,7 @@ const HeroAbout = ({ main }) => (
   <Reveal
     animation="fade-in slide-in-right"
     className={classNames(
-      'prose prose-invert prose-headings:my-4 first-of-type:prose-headings:mt-0 prose-p:hidden',
+      'prose prose-invert prose-headings:my-4 prose-headings:first-of-type:mt-0 prose-p:hidden',
       'prose-headings:my-6 prose-pre:max-w-[100vw] md:prose-p:block md:prose-pre:max-w-lg'
     )}
   >
@@ -64,7 +64,7 @@ const Achievements = ({ achievements }) => (
 
 const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
   <div className="mx-auto my-auto py-4 md:p-10 lg:p-20">
-    <div className="absolute right-0 top-0 box-content hidden h-full w-1/4 bg-gradient-to-br from-alpha-100 via-alpha to-beta pl-5 md:block" />
+    <div className="absolute right-0 top-0 box-content hidden h-full w-1/4 bg-linear-to-br from-alpha-100 via-alpha to-beta pl-5 md:block" />
     <div className="items-end text-center md:flex md:text-left">
       <div className="relative shrink-0 basis-1/2 text-center md:order-2 md:-ml-20">
         <HeroPhoto main={main} />

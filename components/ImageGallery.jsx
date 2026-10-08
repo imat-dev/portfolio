@@ -79,7 +79,7 @@ const ImageGallery = (props) => {
               onClick={() => setActiveIndex(i)}
               className={classNames(
                 'absolute inset-0 flex cursor-pointer flex-col items-center',
-                'opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100'
+                'opacity-0 backdrop-blur-xs transition-opacity group-hover:opacity-100'
               )}
             >
               <IoEyeSharp className="mt-auto text-3xl invert" />

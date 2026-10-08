@@ -35,7 +35,7 @@ const HeroAbout = ({ main }) => (
       animation="fade-in slide-in-bottom"
       className={classNames(
         'mx-auto max-w-3xl px-4 md:p-0',
-        'prose prose-invert prose-headings:my-4 first-of-type:prose-headings:mt-0',
+        'prose prose-invert prose-headings:my-4 prose-headings:first-of-type:mt-0',
         'prose-p:mx-auto prose-p:max-w-prose md:prose-headings:my-6',
         'prose-hr:mx-auto prose-hr:max-w-md'
       )}
@@ -51,7 +51,7 @@ const Achievements = ({ achievements }) => (
       className={classNames(
         'p-10 text-center md:p-6',
         'ld:grid-cols-4 prose prose-invert grid grid-cols-2 lg:grid-cols-4',
-        'bg-gradient-to-tr from-alpha-100 via-alpha to-beta',
+        'bg-linear-to-tr from-alpha-100 via-alpha to-beta',
         'divide-omega-700/30 lg:divide-x'
       )}
     >

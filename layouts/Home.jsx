@@ -42,7 +42,7 @@ const HeroAbout = ({ main }) => (
     animation="fade-in slide-in-right"
     className={classNames(
       'md:mr-52',
-      'prose prose-invert prose-headings:my-4 first-of-type:prose-headings:mt-0 prose-p:hidden',
+      'prose prose-invert prose-headings:my-4 prose-headings:first-of-type:mt-0 prose-p:hidden',
       'md:prose-headings:my-6 md:prose-p:block'
     )}
   >
@@ -109,7 +109,7 @@ const Skill = ({ title, icon, level }) => (
             key={`${title}${k}-f`}
             className={classNames(
               'inline-block h-3.5 w-3.5',
-              k + 1 <= level ? 'bg-gradient-to-tr from-accent-700 to-accent' : 'bg-omega-700'
+              k + 1 <= level ? 'bg-linear-to-tr from-accent-700 to-accent' : 'bg-omega-700'
             )}
           />
         ))}

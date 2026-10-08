@@ -11,7 +11,7 @@ const History = ({ title, list }) => (
     <h3>{title}</h3>
     <Reveal
       animation="fade-in scale-x"
-      className="h-1.5 bg-gradient-to-r from-black via-beta to-alpha"
+      className="h-1.5 bg-linear-to-r from-black via-beta to-alpha"
     />
     <div className="mt-6 flex flex-col md:mt-12">
       {list?.map((item, i) => (
@@ -44,7 +44,7 @@ const Skill = ({ title, icon, level }) => (
             key={`${title}${k}-f`}
             className={classNames(
               'inline-block h-3.5 w-3.5',
-              k + 1 <= level ? 'bg-gradient-to-tr from-accent-700 to-accent' : 'bg-omega-700'
+              k + 1 <= level ? 'bg-linear-to-tr from-accent-700 to-accent' : 'bg-omega-700'
             )}
           />
         ))}
@@ -83,7 +83,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
                 fill
               />
             )}
-            <div className="absolute top-0 left-0 z-20 h-full w-full bg-gradient-to-b from-transparent via-transparent to-black/90" />
+            <div className="absolute top-0 left-0 z-20 h-full w-full bg-linear-to-b from-transparent via-transparent to-black/90" />
           </div>
           <div className="z-10 bg-black p-6 text-center">
             <h3 className="inline">{personal_info.name}</h3>

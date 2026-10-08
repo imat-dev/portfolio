@@ -85,6 +85,19 @@ module.exports = {
                 code: {
                   fontWeight: theme('fontWeight.normal'),
                 },
+                // typography >=0.5.10 styles description lists; the layouts style
+                // their own <dl>/<dt>/<dd>, so keep the pre-upgrade (unstyled) defaults
+                dl: {
+                  marginTop: null,
+                  marginBottom: null,
+                },
+                dt: {
+                  marginTop: null,
+                },
+                dd: {
+                  marginTop: null,
+                  paddingInlineStart: null,
+                },
                 'code::before': {
                   content: '""',
                 },

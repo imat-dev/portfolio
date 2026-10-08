@@ -18,7 +18,7 @@ const TagCard = (tag) => (
           'border-l border-beta',
           'flex w-14 items-center justify-center text-center',
           'from-alpha-100 via-alpha to-beta dark:bg-omega-700',
-          'transition-all duration-300 group-hover:bg-gradient-to-br group-hover:text-omega-900'
+          'transition-all duration-300 group-hover:bg-linear-to-br group-hover:text-omega-900'
         )}
       >
         <small className="text-sm font-bold">{tag.collection?.totalRecords}</small>

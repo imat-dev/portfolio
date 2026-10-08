@@ -21,7 +21,7 @@ const Button = React.forwardRef((props, ref) => {
       className={classNames(
         'relative inline-flex items-center justify-center',
         'leading-normal no-underline',
-        'group cursor-pointer select-none focus:outline-none',
+        'group cursor-pointer select-none focus:outline-hidden',
         'peer md:peer-even:ml-6',
         disabled && 'pointer-events-none grayscale',
         className
@@ -53,7 +53,7 @@ const Button = React.forwardRef((props, ref) => {
       <div
         className={classNames(
           'absolute h-full w-full',
-          'bg-gradient-to-r from-alpha via-alpha-300 to-beta',
+          'bg-linear-to-r from-alpha via-alpha-300 to-beta',
           {
             'top-1 left-1': size === 'xs',
             'top-2 left-2': size !== 'xs',

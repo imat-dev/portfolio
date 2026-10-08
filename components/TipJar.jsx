@@ -41,7 +41,7 @@ const TipJar = (props) => {
     <div
       className={classNames(
         'my-8 flex flex-wrap items-center justify-around p-3 px-4',
-        'bg-gradient-to-r from-alpha-100 via-alpha to-beta',
+        'bg-linear-to-r from-alpha-100 via-alpha to-beta',
         className
       )}
       {...rest}

@@ -8,13 +8,13 @@ const Layout = ({ projects, github }) => {
     <div className="mx-auto p-3 md:p-6 lg:p-12">
       <div className="prose prose-headings:mb-4 dark:prose-invert">
         <div class="-mx-3 -mt-3 md:m-0">
-          <div class="bg-gradient-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
+          <div class="bg-linear-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
             <h3>
               <em>Explore My Open-Source Endeavors</em>
             </h3>
             <p>Discover my open-source projects on Github.</p>
           </div>
-          <div class="h-px w-full bg-gradient-to-r from-accent via-beta to-alpha md:bg-none"></div>
+          <div class="h-px w-full bg-linear-to-r from-accent via-beta to-alpha md:bg-none"></div>
         </div>
 
         <div className="mt-4 grid grid-cols-fluid gap-4 [--tw-fluid-col-min:15rem] md:mt-12 md:gap-6">
@@ -44,7 +44,7 @@ const Layout = ({ projects, github }) => {
 
         <div className="my-6 md:my-20"></div>
         <div class="-mx-3 -mt-5 md:m-0">
-          <div class="bg-gradient-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
+          <div class="bg-linear-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
             <h3>
               <em>Latest Projects</em>
             </h3>
@@ -53,7 +53,7 @@ const Layout = ({ projects, github }) => {
               Meanwhile, explore my projects at <a href="https://www.dthree.com.ph/projects" rel="noreferrer" target='_blank'>dthree.com.ph/projects.</a>
             </p>
           </div>
-          <div class="h-px w-full bg-gradient-to-r from-accent via-beta to-alpha md:bg-none"></div>
+          <div class="h-px w-full bg-linear-to-r from-accent via-beta to-alpha md:bg-none"></div>
         </div>
 
         <div className="mt-4 grid gap-4 md:mt-12 md:gap-6">

@@ -1,6 +1,4 @@
 const plugin = require('tailwindcss/plugin')
-// color 5 is ESM-only; require() returns the module namespace
-const Color = require('color').default ?? require('color')
 
 const flattenColorPalette = (colors) =>
   Object.assign(
@@ -14,6 +12,12 @@ const flattenColorPalette = (colors) =>
     )
   )
 
+// Each theme writes its palette to CSS variables (`--theme-alpha-500`, ...) on
+// `html` (default theme) or on a `.<themeName>` class. Utilities read the
+// variable, and Tailwind 4 applies opacity modifiers (`bg-omega-800/90`) to it
+// with color-mix(), so any CSS color format (hex, oklch) works.
+// The `--theme-` prefix keeps these clear of Tailwind 4's own `--color-*` theme
+// variables.
 module.exports = plugin.withOptions(
   (options = {}) => {
     return ({ addBase }) => {
@@ -23,7 +27,7 @@ module.exports = plugin.withOptions(
         const styles = {}
 
         Object.entries(flattenColorPalette(theme)).forEach(
-          ([color, hex]) => hex && (styles['--color-' + color] = Color(hex).rgb().array().join(' '))
+          ([color, value]) => value && (styles['--theme-' + color] = value)
         )
 
         const cssSelector = themeName === 'default' ? 'html' : `.${themeName}`
@@ -41,7 +45,7 @@ module.exports = plugin.withOptions(
 
     const colors = Object.values(themes).reduce((variables, theme) => {
       Object.keys(flattenColorPalette(theme)).forEach(
-        (rule) => (variables[rule] = `rgb(var(--color-${rule}) / <alpha-value>)`)
+        (rule) => (variables[rule] = `var(--theme-${rule})`)
       )
       return variables
     }, {})

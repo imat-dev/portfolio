@@ -19,7 +19,7 @@ const Services01 = ({ main = {}, services = [] }) => (
             delay={(i % 2) * 100}
             key={i}
           >
-            <div className="align-center flex flex-col bg-gradient-to-br from-alpha-100 via-alpha to-beta p-8">
+            <div className="align-center flex flex-col bg-linear-to-br from-alpha-100 via-alpha to-beta p-8">
               {item.icon && (
                 <Icon {...item.icon} className="relative z-10 mb-6 h-12 w-12 fill-accent" />
               )}

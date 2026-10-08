@@ -1,8 +1,42 @@
-@import './prism.css';
+@import 'tailwindcss';
+@import './prism.css' layer(base);
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@config '../tailwind.config.js';
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility text-gradient-500 {
+  @apply bg-linear-to-br from-alpha to-beta bg-clip-text text-transparent;
+}
+
+@utility bg-gradient-omega-900 {
+  @apply bg-linear-to-r from-omega-900 to-omega-800;
+}
+
+@utility with-back-plate {
+  @apply relative mb-2 -translate-x-2 md:mb-2 md:-translate-x-2;
+  &::before {
+    @apply absolute right-0 bottom-0 h-full w-full translate-y-2 translate-x-2 bg-white md:translate-y-2 md:translate-x-2;
+    content: '';
+    z-index: -1;
+  }
+}
 
 @layer base {
   * {
@@ -39,23 +73,6 @@
     }
     & > span {
       color: var(--tw-prose-counters);
-    }
-  }
-}
-
-@layer utilities {
-  .text-gradient-500 {
-    @apply bg-gradient-to-br from-alpha to-beta bg-clip-text text-transparent;
-  }
-  .bg-gradient-omega-900 {
-    @apply bg-gradient-to-r from-omega-900 to-omega-800;
-  }
-  .with-back-plate {
-    @apply relative mb-2 -translate-x-2 md:mb-2 md:-translate-x-2;
-    &::before {
-      @apply absolute right-0 bottom-0 h-full w-full translate-y-2 translate-x-2 bg-white md:translate-y-2 md:translate-x-2;
-      content: '';
-      z-index: -1;
     }
   }
 }

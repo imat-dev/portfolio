@@ -10,7 +10,7 @@ const BlogCardVertical = ({ className, title, images, slug, description, date, t
   <div
     className={classNames(
       'group prose prose-zinc block flex flex-col',
-      'from-omega-900 via-omega-900 to-omega-800 dark:prose-invert dark:sm:bg-gradient-to-b dark:sm:shadow-md',
+      'from-omega-900 via-omega-900 to-omega-800 dark:prose-invert dark:sm:bg-linear-to-b dark:sm:shadow-md',
       className
     )}
   >
