@@ -13,9 +13,9 @@ images:
     alt: Raymart "Imat" Marasigan
 ---
 
-# <Typewriter className="lg:text-5xl">Raymart Marasigan</Typewriter>
+# <Typewriter className="text-3xl sm:text-4xl lg:text-5xl">Raymart Marasigan</Typewriter>
 
-# *AI Software Engineer*
+<h1 className="whitespace-nowrap text-2xl sm:text-4xl md:text-4xl lg:text-5xl"><em>AI Software Engineer</em></h1>
 
 <Sep size={12} />
 
