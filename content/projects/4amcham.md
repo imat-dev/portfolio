@@ -1,11 +1,11 @@
 ---
 layout: Post
 title: American Chamber of Commerce of the Philippines
-description: Building a website for a prestigious 120 year-old business organization
+description: Building a website for a prestigious business organization with a 100+ year history
 date: '2022-11-22'
 url: https://amchamphilippines.com/
 tags:
-  - Drupal
+  - WordPress
 logo:
   src: 
   alt: 
@@ -22,6 +22,6 @@ attributes:
     value: Lead Full Stack Developer
 ---
 
-I was the lead full-stack developer on the website of the American Chamber of Commerce of the Philippines, a business organization with a 120-year history, delivered through Dthree Digital. The site runs on Drupal and was built in about one month.
+I was the lead full-stack developer on the website of the American Chamber of Commerce of the Philippines, a business organization with a 100+ year history, delivered through Dthree Digital. The site runs on WordPress and was built in about one month.
 
 [Visit the live site](https://amchamphilippines.com/)
