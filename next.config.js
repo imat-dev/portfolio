@@ -11,6 +11,16 @@ module.exports = withBundleAnalyzer({
     // ImageGallery and BlogCardHorizontal pass 100.
     qualities: [75, 90, 100],
   },
+  // Keep old shared links to the resume working after the rename
+  async redirects() {
+    return [
+      {
+        source: '/resume.pdf',
+        destination: '/Raymart-Marasigan-Resume.pdf',
+        permanent: true,
+      },
+    ]
+  },
   turbopack: {
     rules: {
       '*.svg': svgrLoader,
