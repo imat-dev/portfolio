@@ -32,7 +32,7 @@ I build LLM applications and multi-agent systems in Python and TypeScript. Befor
 
 ---cta
 ---
-<Button href="/resume.pdf"  onClick={() => window.location.href = "/resume.pdf"}  size="lg">
+<Button href="/Raymart-Marasigan-Resume.pdf"  onClick={() => window.location.href = "/Raymart-Marasigan-Resume.pdf"}  size="lg">
   Download Resume
 </Button>
 
