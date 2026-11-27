@@ -5,6 +5,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const svgrLoader = { loaders: ['@svgr/webpack'], as: '*.js' }
 
 module.exports = withBundleAnalyzer({
+  experimental: {
+    agentUpgrade: 'security',
+  },
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
     // Next 16 only serves listed qualities (default [75]). Image.jsx defaults to 90;
