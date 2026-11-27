@@ -178,6 +178,9 @@ list:
   - title: Shopify
     icon:
       src: /icons/shopify.svg
+  - title: Webflow
+    icon:
+      src: /icons/webflow.svg
   - title: Strapi
     icon:
       src: /icons/strapi.svg
